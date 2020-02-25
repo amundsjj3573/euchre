@@ -1,0 +1,24 @@
+*{box-sizing: border-box;}
+
+body{
+  background-color: rgba(48, 252, 167, 0.3);
+  font-family: "Arial";
+}
+
+h1{text-align:center}
+
+.boxes{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px;
+  justify-content: center;
+}
+
+.box{
+  padding: 10px;
+  margin: 10px;
+  background-color: darkgrey;
+  text-align: center;
+}
