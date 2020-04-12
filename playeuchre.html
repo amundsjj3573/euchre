@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play euchre!</title>
+  <link href="playstyle.css" rel="stylesheet" type="text/css" />
+<style>
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+    <img id="test" width="10" height="10" src="cards\PNG\9D.png" alt="A test picture" style="display: none;">
+  
+<script>
+
+function startGame() {
+    myGameArea.start();
+    
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    }
+}
+
+  var S9 = {suit: 1, value: 1};var S10= {suit: 1, value: 2};var SJ = {suit: 1, value: 3};var SQ = {suit: 1, value: 4};var SK = {suit: 1, value: 5};var SA = {suit: 1, value: 6};var H9 = {suit: 2, value: 1};var H10= {suit: 2, value: 2};var HJ = {suit: 2, value: 3};var HQ = {suit: 2, value: 4};var HK = {suit: 2, value: 5};var HA = {suit: 2, value: 6};var C9 = {suit: 3, value: 1};var C10= {suit: 3, value: 2};var CJ = {suit: 3, value: 3};var CQ = {suit: 3, value: 4};var CK = {suit: 3, value: 5};var CA = {suit: 3, value: 6};var D9 = {suit: 4, value: 1};var D10= {suit: 4, value: 2};var DJ = {suit: 4, value: 3};var DQ = {suit: 4, value: 4};var DK = {suit: 4, value: 5};var DA = {suit: 4, value: 6};
+  deck={S9, S10, SJ, SQ, SK, H9, H10, HJ, HQ, HK, C9, C10, CJ, CQ, CK, D9, D10, DJ, DQ, DK};
+
+var img = document.getElementById("test");
+canvas.drawImage(img, 0, 0, 50, 50/(607/807));
+
+  
+</script>
+
+<p>We have created a game area! (or at least an empty canvas)</p>
+
+</body>
+</html>
