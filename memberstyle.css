@@ -65,3 +65,11 @@ h1{text-align:center}
   display: flex;
   justify-content: center;
 }
+
+#lexypic{
+	width: 50%;
+}
+
+.about{
+	padding: 0px 10px 0px 0px;
+}
