@@ -25,3 +25,30 @@ h1{text-align:center}
   border-radius: 15%;
   box-shadow: 5px 5px 3px grey;
 }
+
+#header{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+
+#links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.headbox{
+  background-color: darkgrey;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.5);
+  border-radius: 10%;
+}
+
+#heading{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}

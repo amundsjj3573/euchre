@@ -14,8 +14,8 @@ h1{text-align:center}
 
 
 .card{
-	height: 400px;
-	width: 800px;
+	height: 350px;
+	width: 700px;
 	background-color: rgba(220,220,220,1);
 	border: 10px solid rgba(200,200,200,1);;
 	border-radius: 10%;
@@ -36,4 +36,31 @@ h1{text-align:center}
 .bio{
 	display: flex;
 	flex-direction: column;
+}
+
+#header{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+
+#links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.headbox{
+  background-color: darkgrey;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.5);
+  border-radius: 10%;
+}
+
+#heading{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
