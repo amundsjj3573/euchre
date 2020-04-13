@@ -26,32 +26,4 @@ h1{text-align:center}
   box-shadow: 5px 5px 3px grey;
 }
 
-#header{
-  display: flex;
-  justify-content:flex-start;
-  flex-direction: column;
-  background-color: rgba(0,0,0,0.1);
-	padding: 0px 0px 20px 0px;
-}
-
-#links{
-  display: flex;
-  justify-content: space-around;
-}
-
-.headbox{
-  background-color: darkgrey;
-  padding: 25px 35px;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-  box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.5);
-  border-radius: 10%;
-	font-size: 20px;
-}
-
-#heading{
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
 }
