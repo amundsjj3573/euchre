@@ -12,10 +12,10 @@
     <h3 id="heading">Eau Claire Euchre Club</h2>
 
     <div id="links">
-    <div class="headbox"><a href=about.html>About</a></div>
-    <div class="headbox"><a href=members.html>Members</a></div>
-    <div class="headbox"><a href=howtoplay.html>How to Play</a></div>
-    <div class="headbox"><a href=strategies.html>Strategies</a></div>
+    <div class="headbox" onmouseover="hovered(this)" onmouseout="unhovered(this)"><a href=about.html>About</a></div>
+    <div class="headbox" onmouseover="hovered(this)" onmouseout="unhovered(this)"><a href=members.html>Members</a></div>
+    <div class="headbox" onmouseover="hovered(this)" onmouseout="unhovered(this)"><a href=howtoplay.html>How to Play</a></div>
+    <div class="headbox" onmouseover="hovered(this)" onmouseout="unhovered(this)"><a href=strategies.html>Strategies</a></div>
     </div>
     </div>
     <h2>Our members</h2>
@@ -81,6 +81,17 @@
     <a href=index.html>Go back home</a><br><br>
 
   Contact us: <input type="text" name="Contactbox"><input type="submit">
+
+    <script>
+      function hovered(x) {
+        x.style.backgroundColor = "grey";
+      }
+      
+      function unhovered(x) {
+        x.style.backgroundColor = "darkgrey";
+      }
+      
+    </script>
 
   </body>
 </html>
